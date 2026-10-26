@@ -1,0 +1,22 @@
+# Build directories and binaries
+bin/
+build/
+*.o
+*.out
+*.exe
+
+# Temporary test and benchmark files
+temp.txt
+datosEntrada.txt
+distanciasPrueba.txt
+salida/
+salidaValidacion/
+salidaValidación/
+salidaTiempo/tiemposSalida.txt
+resultados.txt
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
