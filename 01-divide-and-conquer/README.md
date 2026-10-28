@@ -83,3 +83,8 @@ Timing measurements were collected using POSIX `gettimeofday()` (`<sys/time.h>`)
 1. **Redundant Boundary Re-evaluation**: At each internal node of the recursion tree, `divideYVenceras` invokes `resolucionDirecta` over a straddling interval of size $2m - 1$, re-reading elements already visited in the left and right subtrees.
 2. **Function Call & Stack Frame Overhead**: The recursion tree has depth $\approx \log_2(n/m)$ and $\approx n/m$ leaves, incurring call-stack prologue/epilogue instructions and branch mispredictions.
 3. **Cache & Prefetcher Efficiency**: `resolucionDirecta` performs a strictly monotonic stride-1 traversal from `dife[0]` to `dife[n-1]`, which is optimal for L1d cache lines (64 bytes = 16 `int`s) and hardware stream prefetchers.
+
+## Collaborators
+
+- **Marta Tomás** ([@MartaTR13](https://github.com/MartaTR13))
+- **Pedro Villa** ([@pedro-villa](https://github.com/pedro-villa))

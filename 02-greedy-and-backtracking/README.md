@@ -49,3 +49,8 @@ The solver explores a binary decision tree of depth $n$ using an explicit iterat
 ### 2.3. Complexity
 - **Time Complexity**: $O(n \cdot 2^n)$ in the worst case (pruned to $O\left(n \sum_{k=0}^{m} \binom{n}{k}\right)$ states by the cardinality bound `elegido < m`).
 - **Space Complexity**: $O(N^2)$ static matrix storage plus $O(N)$ state vector.
+
+## Collaborators
+
+- **Marta Tomás** ([@MartaTR13](https://github.com/MartaTR13))
+- **Pedro Villa** ([@pedro-villa](https://github.com/pedro-villa))
