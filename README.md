@@ -98,3 +98,8 @@ make clean
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ```
+
+## Collaborators
+
+- **Marta Tomás** ([@MartaTR13](https://github.com/MartaTR13))
+- **Pedro Villa** ([@pedro-villa](https://github.com/pedro-villa))
